@@ -106,6 +106,7 @@ section {
   display: block;
 }
 body {
+  position: relative;
   width: 100%;
   font-family: "Noto Sans KR", sans-serif;
   line-height: 1;

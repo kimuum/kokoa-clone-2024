@@ -44,3 +44,55 @@ img {
   font-weight: 700;
   border-radius: 50%;
 }
+.splash-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 207, 48);
+  animation: splashScreenAni 0.5s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+.splash-screen i {
+  font-size: 80px;
+}
+
+@keyframes splashScreenAni {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.no-mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 207, 48);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+  .no-mobile {
+    display: none;
+  }
+}

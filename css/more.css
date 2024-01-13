@@ -1,0 +1,37 @@
+.more-container {
+  padding: var(--common-padding);
+}
+.more-container .num-box {
+  margin-top: 10px;
+  font-size: 10px;
+}
+.more-container .num-box i {
+  margin-left: 1px;
+  color: rgb(62, 97, 184);
+}
+.suggestions-area {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+.suggestions-top {
+  margin-bottom: 20px;
+}
+.suggestions-title {
+  font-size: 12px;
+  opacity: 0.5;
+}
+.suggestions-area .icon-list .icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 207, 48);
+}
+.suggestions-area .icon-list .icon-box i {
+  margin-bottom: 0;
+  font-size: 20px;
+}

@@ -3,14 +3,16 @@
 }
 .icon-list-area {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: -10px;
 }
 .icon-list {
-  flex: 1;
+  width: calc(25% - 20px);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 10px;
   font-size: 12px;
   line-height: 1.2;
 }
@@ -108,4 +110,17 @@
 }
 .open-chat-list-right .img-box .favorite i {
   margin-right: 5px;
+}
+.open-chat-list-right .img-box .favorite:hover i {
+  animation: favoriteAni 0.5s ease-in-out infinite;
+  will-change: transform;
+}
+@keyframes favoriteAni {
+  0% {
+    transform: initial;
+  }
+  100% {
+    transform: scale(1.25);
+    color: palevioletred;
+  }
 }

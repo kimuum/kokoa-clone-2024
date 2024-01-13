@@ -18,3 +18,14 @@
 .header-icon-area i {
   margin-left: 20px;
 }
+.header-icon-area a:hover i {
+  animation: setAni 1s linear infinite;
+}
+@keyframes setAni {
+  from {
+    transform: initial;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
