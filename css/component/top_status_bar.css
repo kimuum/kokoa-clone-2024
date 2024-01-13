@@ -1,0 +1,34 @@
+.top-status-bar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #fff;
+}
+.top-status-bar-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.top-status-bar-area > div {
+  width: 33.33%;
+}
+.top-status-bar-area > div i {
+  margin-left: 5px;
+}
+.top-status-bar-left {
+  display: flex;
+}
+
+.top-status-bar-middle {
+  display: flex;
+  justify-content: center;
+}
+.top-status-bar-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

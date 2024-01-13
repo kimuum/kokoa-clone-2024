@@ -1,0 +1,10 @@
+.chat-container {
+  padding: var(--common-padding);
+}
+.chat-container .user-right-box > span {
+  font-size: 10px;
+  opacity: 0.5;
+}
+.chat-container .user-right-box .badge-box {
+  margin: 5px 0 0 auto;
+}

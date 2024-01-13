@@ -1,0 +1,111 @@
+.find-container {
+  padding: var(--common-padding);
+}
+.icon-list-area {
+  display: flex;
+  justify-content: space-around;
+}
+.icon-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.2;
+}
+.icon-list i {
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.recommend-area {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+.recommend-area {
+  font-size: 12px;
+  opacity: 0.5;
+}
+.recommend-area .desc {
+  padding: 100px 0;
+  text-align: center;
+}
+.open-chat-container {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+.open-chat-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  opacity: 0.5;
+}
+.open-chat-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.open-chat-list + .open-chat-list {
+  border-top: 1px solid #eee;
+}
+.open-chat-list-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 15px;
+}
+.open-chat-list-left .tags {
+  opacity: 0.5;
+}
+.members-box {
+  display: flex;
+  align-items: center;
+}
+.members-box span {
+  margin: 0 2px;
+}
+.members-box .img-box {
+  overflow: hidden;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+}
+.members-box span:not(.active) {
+  opacity: 0.8;
+}
+.members-box .active {
+  color: palevioletred;
+}
+.open-chat-list-right .img-box {
+  position: relative;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.open-chat-list-right .img-box .favorite {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(255 255 255 / 40%);
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 400;
+  color: #fff;
+}
+.open-chat-list-right .img-box .favorite i {
+  margin-right: 5px;
+}
